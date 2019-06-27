@@ -1,0 +1,229 @@
+.navbar-brand {
+  font-weight: bold;  
+}
+
+.light-border-right {
+  border-right: 1px dotted #444;
+}
+
+.muted-link, .muted-link:hover {
+  outline:none;
+}
+
+
+.subheading {
+  font-size:0.9em;
+}
+
+
+.jumbotron {
+  background-image:url('../images/london.jpg');
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #333;
+  color: white;
+  text-shadow: 1px 1px #222;
+}
+  
+.jumbotron-heading {
+  font-size:5em;
+}
+
+.ik-address {
+  margin-top: 15px;
+  
+}
+.ik-address > span {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.lead {
+  font-size:1.6em;
+}
+
+.jumbotron .btn {
+  text-shadow: none;
+}
+
+.navbar {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  padding: 10px;  
+}
+
+nav {
+  background-color: white;
+  opacity:0.9;
+}
+
+#navbarTogglerDemo01 .nav-link.active {
+  border-bottom:2px solid #d15608;
+  outline:none;
+}
+
+#navbarTogglerDemo01 .nav-link {
+  text-transform: uppercase;
+  font-size:0.9em;
+  font-weight: bold;
+  padding: 10px;
+  outline:none;
+}
+
+#about {
+  color: #111;
+}
+
+#about img {
+ width: 90%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 25px;
+}
+
+.leading-title {
+  color:#d15608;
+}
+
+.talk-abstract .leading-title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom:10px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.card-img-top {
+  display: block;
+  width:65%;
+  margin: 20px auto 5px auto;
+}
+
+.card-body h6 {
+   font-weight: bold;
+   text-align :center;
+}
+
+.card-body p {
+  text-align :center;
+  font-size:0.9em;
+  
+}
+
+.card-body .card-title {
+  color: #0162cb;
+  font-size:1.1em;
+}
+
+.card-body .card-subtitle {
+  font-weight:600;
+  color:#333;
+  font-size:0.9em;
+}
+.card-body .card-subsubtitle {
+  color :#666;
+  font-size:0.8em;
+  text-transform: uppercase; 
+  font-weight:normal;
+}
+
+
+.list-group-item span {
+  padding-right: 15px;
+  
+}
+.ik-time {
+  color: #777;
+  font-size:0.95em;
+  text-transform: uppercase;
+}
+
+.ik-talk-topic {
+  font-weight: bold;
+  color: #111;
+  font-size: 1.2em;
+}
+
+.ik-talk-speaker {
+  color :#222;
+}
+
+.talk-abstract {
+  padding: 2em ;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  color: #111;
+  
+}
+
+@media (max-width: 768px) {
+  .list-group-item span {
+    display:block;
+  
+  }
+
+  span.ik-abstract-toggle {
+    width: 26%;
+    float:right;
+  }
+
+.jumbotron-heading {
+  font-size:4.2em;
+}
+}
+
+
+span.ik-abstract-toggle  {
+  padding: 2px 5px 2px 15px;
+  color: #111;
+  background-color: #fffe99;
+}
+
+footer {
+  margin-top:50px;
+  background-color: #1f2125;
+  color :white;
+  font-size: 0.85em;
+}
+
+footer .affiliation {
+  color: #aaa;
+  border-left: 1px dotted #666;
+  padding-left: 5px;
+}
+
+footer .logo {
+  font-size:1.5em;
+  
+}
+
+footer h6 {
+  color: #888;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed #444;
+  padding-bottom: 5px;
+  font-size:1.1em;
+  font-weight: bold;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  color: #eee;
+}
+
+footer a{
+  color: white;
+  text-decoration:none;
+  
+}
+
